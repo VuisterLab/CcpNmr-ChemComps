@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<_StorageUnit release="2.0.a1" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:55_00005" time="Mon Aug  4 14:09:20 2008">
+<_StorageUnit release="2.0.a3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:55_00005" time="Thu Mar 12 13:59:57 2009">
 
-<CCCO.ChemCompCoord _ID="_1" ccpCode="Bv2" createdBy="ccpnRef" details="Generated from MSDDB database" guid="msd_ccpnRef_2008-08-04-14-09-19-729_00001" isModifiable="true" molType="other" sourceName="ideal">
+<CCCO.ChemCompCoord _ID="_1" ccpCode="Bv2" createdBy="ccpnRef" guid="msd_ccpnRef_2008-08-04-14-09-19-729_00001" isModifiable="true" molType="other">
+  <CCCO.ChemCompCoord.details>
+    <IMPL.Text>Generated from PDBe database</IMPL.Text>
+  </CCCO.ChemCompCoord.details>
+  <CCCO.ChemCompCoord.sourceName>
+    <IMPL.Line>ideal</IMPL.Line>
+  </CCCO.ChemCompCoord.sourceName>
   <IMPL.DataObject.applicationData>
-    <IMPL.AppDataString application="ccpNmr" keyword="origin" value="MSDDB"/>
+    <IMPL.AppDataString>
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>ccpNmr</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>origin</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+      <IMPL.AppDataString.value>
+        <IMPL.String>PDBEDB</IMPL.String>
+      </IMPL.AppDataString.value>
+    </IMPL.AppDataString>
+    <IMPL.AppDataBoolean value="true">
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>pdbeCcGeneration</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>objectGeneratedFromScratch</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+    </IMPL.AppDataBoolean>
   </IMPL.DataObject.applicationData>
   <CCCO.ChemCompCoord.chemAtomCoords>
     <CCCO.ChemAtomCoord _ID="_2" name="C1" serial="1" subType="1" x="12.957000000000001" y="-7.7000000000000002" z="-22.531000000000002">
@@ -497,8 +521,11 @@
     </CCCO.ChemAtomCoord>
   </CCCO.ChemCompCoord.chemAtomCoords>
   <CCCO.ChemCompCoord.chemCompVarCoords>
-    <CCCO.ChemCompVarCoord _ID="_3" descriptor="neutral" linking="none">
-      <CCCO.ChemCompVarCoord.chemAtomCoords> _146 _99 _115 _119 _7 _20 _152 _151 _136 _148 _89 _135 _137 _113 _85 _91 _40 _45 _132 _74 _46 _114 _104 _158 _43 _83 _93 _120 _118 _133 _56 _159 _162 _143 _9 _116 _16 _140 _29 _154 _92 _63 _52 _112 _163 _30 _155 _65 _121 _128 _37 _102 _82 _55 _130 _72 _71 _17 _6 _129 _35 _164 _131 _66 _67 _101 _21 _110 _15 _142 _165 _76 _54 _2 _11 _53 _32 _59 _94 _145 _47 _86 _12 _90 _61 _108 _124 _109 _153 _127 _78 _134 _27 _31 _75 _18 _33 _28 _64 _122 _10 _25 _69 _117 _138 _14 _95 _19 _49 _147 _150 _42 _161 _157 _13 _96 _57 _87 _22 _60 _34 _39 _62 _58 _105 _44 _149 _84 _125 _106 _23 _103 _111 _144 _88 _80 _41 _139 _4 _160 _107 _126 _50 _36 _141 _8 _70 _81 _79 _156 _24 _97 _48 _68 _26 _100 _5 _73 _123 _38 _98 _77 _51</CCCO.ChemCompVarCoord.chemAtomCoords>
+    <CCCO.ChemCompVarCoord _ID="_3" linking="none">
+      <CCCO.ChemCompVarCoord.descriptor>
+        <IMPL.Line>neutral</IMPL.Line>
+      </CCCO.ChemCompVarCoord.descriptor>
+      <CCCO.ChemCompVarCoord.chemAtomCoords> _114 _151 _69 _74 _57 _77 _108 _121 _116 _95 _141 _150 _135 _5 _97 _124 _20 _105 _132 _56 _111 _84 _87 _137 _90 _9 _36 _147 _24 _6 _133 _85 _155 _70 _83 _59 _52 _78 _46 _94 _112 _64 _162 _160 _126 _16 _72 _34 _65 _129 _165 _53 _128 _152 _28 _115 _113 _82 _136 _161 _98 _42 _60 _48 _27 _55 _2 _12 _26 _75 _142 _22 _123 _80 _81 _127 _93 _96 _14 _107 _109 _100 _10 _145 _33 _17 _118 _63 _37 _99 _140 _130 _7 _15 _25 _125 _51 _143 _39 _21 _43 _164 _119 _23 _18 _104 _66 _49 _19 _11 _61 _86 _153 _76 _44 _73 _32 _106 _50 _13 _88 _67 _148 _122 _91 _154 _62 _35 _89 _102 _103 _8 _158 _110 _134 _156 _54 _120 _117 _29 _47 _101 _71 _149 _4 _30 _38 _138 _41 _58 _92 _157 _79 _163 _68 _31 _159 _144 _139 _146 _131 _45 _40</CCCO.ChemCompVarCoord.chemAtomCoords>
     </CCCO.ChemCompVarCoord>
   </CCCO.ChemCompCoord.chemCompVarCoords>
 </CCCO.ChemCompCoord>

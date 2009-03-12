@@ -1,81 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<_StorageUnit release="2.0.a0" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Thu Apr 10 16:37:37 2008">
+<_StorageUnit release="2.0.a3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Thu Mar 12 15:07:48 2009">
 
-<CHEM.NonStdChemComp _ID="_1" ccpCode="Te" code3Letter="TE" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-19-28_00018" isModifiable="true" molType="other" name="TELLURIUM">
+<CHEM.NonStdChemComp _ID="_1" ccpCode="Te" code3Letter="TE" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-19-28_00018" isModifiable="true" molType="other">
+  <CHEM.ChemComp.name>
+    <IMPL.Text>TELLURIUM</IMPL.Text>
+  </CHEM.ChemComp.name>
+  <IMPL.DataObject.applicationData>
+    <IMPL.AppDataString>
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>ccpNmr</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>origin</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+      <IMPL.AppDataString.value>
+        <IMPL.String>PDBe</IMPL.String>
+      </IMPL.AppDataString.value>
+    </IMPL.AppDataString>
+    <IMPL.AppDataBoolean value="true">
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>pdbeCcGeneration</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>objectGeneratedFromScratch</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+    </IMPL.AppDataBoolean>
+  </IMPL.DataObject.applicationData>
   <CHEM.ChemComp.chemAtoms>
     <CHEM.ChemAtom _ID="_2" elementSymbol="Te" name="TE" subType="1" waterExchangeable="false">
       <CHEM.AbstractChemAtom.chemCompVars> _3</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
   </CHEM.ChemComp.chemAtoms>
   <CHEM.ChemComp.chemCompVars>
-    <CHEM.ChemCompVar _ID="_3" descriptor="neutral" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="none">
+    <CHEM.ChemCompVar _ID="_3" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="none">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>neutral</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>[Te]</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>[Te]</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
       <CHEM.ChemCompVar.chemAtoms> _2</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
   </CHEM.ChemComp.chemCompVars>
   <CHEM.ChemComp.namingSystems>
     <CHEM.NamingSystem _ID="_4" name="AQUA" atomReference="_5">
-      <CHEM.NamingSystem.atomSetVariantSystems> _6 _7 _8</CHEM.NamingSystem.atomSetVariantSystems>
+      <CHEM.NamingSystem.atomSetVariantSystems> _6 _7</CHEM.NamingSystem.atomSetVariantSystems>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_8" name="BMRB" atomReference="_5" atomSetReference="_4">
+    <CHEM.NamingSystem _ID="_6" name="BMRB" atomReference="_5" atomSetReference="_4">
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_9" name="CIF">
+    <CHEM.NamingSystem _ID="_8" name="CIF">
       <CHEM.NamingSystem.chemCompSysNames>
-        <CHEM.ChemCompSysName _ID="_10" sysName="TE">
+        <CHEM.ChemCompSysName _ID="_9" sysName="TE">
         </CHEM.ChemCompSysName>
       </CHEM.NamingSystem.chemCompSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_11" name="CING">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_12" name="CYANA2.1" atomReference="_5">
-      <CHEM.NamingSystem.atomSetVariantSystems> _13</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _13</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_13" name="DIANA" atomReference="_12" atomSetReference="_12">
-      <CHEM.NamingSystem.atomSetVariantSystems> _14</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _14</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_15" name="DISGEO" atomReference="_5" atomSetReference="_14">
-      <CHEM.NamingSystem.atomSetVariantSystems> _16</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _16</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_16" name="DISMAN" atomReference="_15" atomSetReference="_15">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_17" name="GROMOS">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_5" name="IUPAC">
-      <CHEM.NamingSystem.atomSetVariantSystems> _18</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _19 _4 _20 _21 _12 _15 _8 _7</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_14" name="MOLMOL" atomReference="_13" atomSetReference="_13">
-      <CHEM.NamingSystem.atomSetVariantSystems> _15</CHEM.NamingSystem.atomSetVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_20" name="MSD" atomReference="_5">
+    <CHEM.NamingSystem _ID="_5" name="IUPAC" atomReference="_7">
+      <CHEM.NamingSystem.atomVariantSystems> _6 _4</CHEM.NamingSystem.atomVariantSystems>
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_22" atomName="TE" atomSubType="1" sysName="TE">
+        <CHEM.AtomSysName _ID="_10" atomName="O'" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O'</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_11" atomName="O''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O''</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_18" name="MSI" atomReference="_19" atomSetReference="_5">
-      <CHEM.NamingSystem.atomVariantSystems> _6</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_23" name="PDB">
+    <CHEM.NamingSystem _ID="_12" name="MSD">
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_24" atomName="TE" atomSubType="1" sysName="TE">
+        <CHEM.AtomSysName _ID="_13" atomName="TE" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>TE</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_7" name="PDB_REMED" atomReference="_5" atomSetReference="_4">
+    <CHEM.NamingSystem _ID="_14" name="PDB">
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_25" atomName="TE" atomSubType="1" sysName="TE">
+        <CHEM.AtomSysName _ID="_15" atomName="TE" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>TE</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_19" name="SYBYL" atomReference="_5">
-      <CHEM.NamingSystem.atomVariantSystems> _18</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_6" name="UCSF" atomReference="_18" atomSetReference="_4">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_21" name="XPLOR" atomReference="_5">
+    <CHEM.NamingSystem _ID="_7" name="PDB_REMED" atomSetReference="_4">
+      <CHEM.NamingSystem.atomVariantSystems> _5</CHEM.NamingSystem.atomVariantSystems>
+      <CHEM.NamingSystem.atomSysNames>
+        <CHEM.AtomSysName _ID="_16" atomName="TE" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>TE</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+      </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
   </CHEM.ChemComp.namingSystems>
 </CHEM.NonStdChemComp>
