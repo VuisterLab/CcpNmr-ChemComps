@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<_StorageUnit release="2.0.a1" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:55_00005" time="Mon Aug  4 13:58:34 2008">
+<_StorageUnit release="2.0.a3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:55_00005" time="Thu Mar 12 13:34:25 2009">
 
-<CCCO.ChemCompCoord _ID="_1" ccpCode="1ah" createdBy="ccpnRef" details="Generated from MSDDB database" guid="msd_ccpnRef_2008-08-04-13-58-33-958_00001" isModifiable="true" molType="other" sourceName="pdb">
+<CCCO.ChemCompCoord _ID="_1" ccpCode="1ah" createdBy="ccpnRef" guid="msd_ccpnRef_2008-08-04-13-58-33-958_00001" isModifiable="true" molType="other">
+  <CCCO.ChemCompCoord.details>
+    <IMPL.Text>Generated from PDBe database</IMPL.Text>
+  </CCCO.ChemCompCoord.details>
+  <CCCO.ChemCompCoord.sourceName>
+    <IMPL.Line>pdb</IMPL.Line>
+  </CCCO.ChemCompCoord.sourceName>
   <IMPL.DataObject.applicationData>
-    <IMPL.AppDataString application="ccpNmr" keyword="origin" value="MSDDB"/>
+    <IMPL.AppDataString>
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>ccpNmr</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>origin</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+      <IMPL.AppDataString.value>
+        <IMPL.String>PDBEDB</IMPL.String>
+      </IMPL.AppDataString.value>
+    </IMPL.AppDataString>
+    <IMPL.AppDataBoolean value="true">
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>pdbeCcGeneration</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>objectGeneratedFromScratch</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+    </IMPL.AppDataBoolean>
   </IMPL.DataObject.applicationData>
   <CCCO.ChemCompCoord.chemAtomCoords>
     <CCCO.ChemAtomCoord _ID="_2" name="BR" serial="1" subType="1" x="6.9720000000000004" y="26.617000000000001" z="0.41900000000000004">
@@ -266,8 +290,11 @@
     </CCCO.ChemAtomCoord>
   </CCCO.ChemCompCoord.chemAtomCoords>
   <CCCO.ChemCompCoord.chemCompVarCoords>
-    <CCCO.ChemCompVarCoord _ID="_3" descriptor="neutral" linking="none">
-      <CCCO.ChemCompVarCoord.chemAtomCoords> _58 _72 _74 _79 _59 _23 _44 _49 _81 _41 _52 _67 _4 _2 _45 _27 _7 _88 _32 _76 _21 _37 _34 _11 _22 _75 _40 _35 _15 _68 _69 _84 _73 _53 _63 _24 _71 _17 _70 _60 _86 _78 _46 _80 _54 _10 _43 _26 _62 _8 _83 _18 _31 _61 _16 _9 _82 _6 _33 _56 _29 _14 _87 _25 _12 _48 _85 _55 _66 _65 _42 _77 _13 _57 _5 _30 _51 _19 _64 _20 _50 _28 _36 _47 _38 _39</CCCO.ChemCompVarCoord.chemAtomCoords>
+    <CCCO.ChemCompVarCoord _ID="_3" linking="none">
+      <CCCO.ChemCompVarCoord.descriptor>
+        <IMPL.Line>neutral</IMPL.Line>
+      </CCCO.ChemCompVarCoord.descriptor>
+      <CCCO.ChemCompVarCoord.chemAtomCoords> _68 _72 _36 _88 _45 _78 _15 _51 _41 _13 _75 _26 _46 _42 _86 _57 _77 _76 _23 _24 _85 _67 _9 _29 _25 _74 _47 _84 _32 _79 _5 _30 _18 _43 _61 _82 _37 _12 _4 _27 _19 _14 _55 _35 _81 _8 _6 _80 _10 _38 _16 _21 _54 _69 _87 _28 _7 _73 _40 _70 _60 _53 _50 _17 _56 _66 _2 _83 _62 _31 _34 _63 _58 _71 _52 _44 _11 _49 _39 _64 _59 _20 _33 _22 _65 _48</CCCO.ChemCompVarCoord.chemAtomCoords>
     </CCCO.ChemCompVarCoord>
   </CCCO.ChemCompCoord.chemCompVarCoords>
 </CCCO.ChemCompCoord>
