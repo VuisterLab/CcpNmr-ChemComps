@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<_StorageUnit release="2.0.a1" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Wed Apr 30 17:38:21 2008">
+<_StorageUnit release="2.0.a3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Thu Mar 12 14:06:26 2009">
 
-<CHEM.NonStdChemComp _ID="_1" ccpCode="Cpc" code3Letter="CPC" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-20-11_00022" hasStdChirality="true" isModifiable="true" molType="protein" name="2-METHYL-1-METHYLAMINO-CYCLOPROPANE CARBOXYLIC ACID">
-  <CHEM.ChemComp.commonNames>
-    <IMPL.Text>(1S,2S)-2-methyl-1-(methylamino)cyclopropanecarboxylic acid</IMPL.Text>
-  </CHEM.ChemComp.commonNames>
+<CHEM.NonStdChemComp _ID="_1" ccpCode="Cpc" code3Letter="CPC" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-20-11_00022" isModifiable="true" molType="protein">
+  <CHEM.ChemComp.name>
+    <IMPL.Text>2-METHYL-1-METHYLAMINO-CYCLOPROPANE CARBOXYLIC ACID</IMPL.Text>
+  </CHEM.ChemComp.name>
+  <IMPL.DataObject.applicationData>
+    <IMPL.AppDataString>
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>ccpNmr</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>origin</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+      <IMPL.AppDataString.value>
+        <IMPL.String>PDBe</IMPL.String>
+      </IMPL.AppDataString.value>
+    </IMPL.AppDataString>
+    <IMPL.AppDataBoolean value="true">
+      <IMPL.ApplicationData.application>
+        <IMPL.Line>pdbeCcGeneration</IMPL.Line>
+      </IMPL.ApplicationData.application>
+      <IMPL.ApplicationData.keyword>
+        <IMPL.Line>objectGeneratedFromScratch</IMPL.Line>
+      </IMPL.ApplicationData.keyword>
+    </IMPL.AppDataBoolean>
+  </IMPL.DataObject.applicationData>
   <CHEM.ChemComp.chemAtomSets>
-    <CHEM.ChemAtomSet _ID="_2" distCorr="0.0" isEquivalent="true" isProchiral="false" name="HCN*" subType="1">
+    <CHEM.ChemAtomSet _ID="_2" distCorr="0.0" isEquivalent="true" isProchiral="false" name="H*" subType="1">
       <CHEM.ChemAtomSet.chemAtoms> _3 _4 _5</CHEM.ChemAtomSet.chemAtoms>
     </CHEM.ChemAtomSet>
     <CHEM.ChemAtomSet _ID="_6" distCorr="0.0" isEquivalent="false" isProchiral="true" name="HG1*" subType="1">
@@ -15,459 +36,740 @@
     <CHEM.ChemAtomSet _ID="_9" distCorr="0.0" isEquivalent="true" isProchiral="false" name="HG2*" subType="1">
       <CHEM.ChemAtomSet.chemAtoms> _10 _11 _12</CHEM.ChemAtomSet.chemAtoms>
     </CHEM.ChemAtomSet>
+    <CHEM.ChemAtomSet _ID="_13" distCorr="0.0" isEquivalent="true" isProchiral="false" name="HN*" subType="1">
+      <CHEM.ChemAtomSet.chemAtoms> _14 _15 _16</CHEM.ChemAtomSet.chemAtoms>
+    </CHEM.ChemAtomSet>
   </CHEM.ChemComp.chemAtomSets>
   <CHEM.ChemComp.chemAtoms>
-    <CHEM.ChemAtom _ID="_13" elementSymbol="C" name="C" subType="1" waterExchangeable="false">
-      <CHEM.ChemAtom.boundLinkEnds> _14</CHEM.ChemAtom.boundLinkEnds>
-      <CHEM.AbstractChemAtom.chemBonds> _15 _16 _17 _18 _19</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
-      <CHEM.AbstractChemAtom.chemTorsions> _26 _27</CHEM.AbstractChemAtom.chemTorsions>
+    <CHEM.ChemAtom _ID="_17" elementSymbol="C" name="C" subType="1" waterExchangeable="false">
+      <CHEM.ChemAtom.boundLinkEnds> _18</CHEM.ChemAtom.boundLinkEnds>
+      <CHEM.AbstractChemAtom.chemBonds> _19 _20 _21 _22 _23</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemTorsions> _33 _34</CHEM.AbstractChemAtom.chemTorsions>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_28" chirality="S" elementSymbol="C" name="CA" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _29 _30 _31 _19</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
-      <CHEM.AbstractChemAtom.chemTorsions> _32 _27 _26</CHEM.AbstractChemAtom.chemTorsions>
-      <CHEM.ChemAtom.remoteLinkEnds> _14 _33</CHEM.ChemAtom.remoteLinkEnds>
+    <CHEM.ChemAtom _ID="_35" chirality="S" elementSymbol="C" name="CA" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _36 _37 _20 _38</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemTorsions> _34 _33 _39</CHEM.AbstractChemAtom.chemTorsions>
+      <CHEM.ChemAtom.remoteLinkEnds> _18 _40</CHEM.ChemAtom.remoteLinkEnds>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_34" chirality="S" elementSymbol="C" name="CB" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _35 _36 _29 _37</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_41" chirality="S" elementSymbol="C" name="CB" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _42 _43 _36 _44</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_38" elementSymbol="C" name="CG1" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _39 _30 _40 _36</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_45" elementSymbol="C" name="CG1" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _42 _38 _46 _47</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_41" elementSymbol="C" name="CG2" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _35 _42 _43 _44</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_48" elementSymbol="C" name="CG2" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _49 _50 _51 _43</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_45" elementSymbol="C" name="CN" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _46 _47 _48 _49</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_52" elementSymbol="C" name="CN" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _53 _54 _55 _56</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_50" elementSymbol="H" name="H" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _51</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _22 _25 _20</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_4" elementSymbol="H" name="H" subType="1" waterExchangeable="false" chemAtomSet="_2">
+      <CHEM.AbstractChemAtom.chemBonds> _57</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_52" elementSymbol="H" name="H''" subType="1" waterExchangeable="false">
+    <CHEM.ChemAtom _ID="_58" elementSymbol="H" name="H''" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _59</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _25 _26 _27</CHEM.AbstractChemAtom.chemCompVars>
+    </CHEM.ChemAtom>
+    <CHEM.ChemAtom _ID="_3" elementSymbol="H" name="H1" subType="1" waterExchangeable="false" chemAtomSet="_2">
+      <CHEM.AbstractChemAtom.chemBonds> _60</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _25 _27 _28 _29 _30 _32</CHEM.AbstractChemAtom.chemCompVars>
+    </CHEM.ChemAtom>
+    <CHEM.ChemAtom _ID="_5" elementSymbol="H" name="H3" subType="1" waterExchangeable="false" chemAtomSet="_2">
+      <CHEM.AbstractChemAtom.chemBonds> _61</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _32 _25 _30</CHEM.AbstractChemAtom.chemCompVars>
+    </CHEM.ChemAtom>
+    <CHEM.ChemAtom _ID="_62" elementSymbol="H" name="HB" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _44</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
+    </CHEM.ChemAtom>
+    <CHEM.ChemAtom _ID="_14" elementSymbol="H" name="HCN1" subType="1" waterExchangeable="false" chemAtomSet="_13">
+      <CHEM.AbstractChemAtom.chemBonds> _54</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
+    </CHEM.ChemAtom>
+    <CHEM.ChemAtom _ID="_15" elementSymbol="H" name="HCN2" subType="1" waterExchangeable="false" chemAtomSet="_13">
       <CHEM.AbstractChemAtom.chemBonds> _53</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _25 _21</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_54" elementSymbol="H" name="HB" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _37</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
-    </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_3" elementSymbol="H" name="HCN1" subType="1" waterExchangeable="false" chemAtomSet="_2">
-      <CHEM.AbstractChemAtom.chemBonds> _48</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
-    </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_4" elementSymbol="H" name="HCN2" subType="1" waterExchangeable="false" chemAtomSet="_2">
-      <CHEM.AbstractChemAtom.chemBonds> _49</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
-    </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_5" elementSymbol="H" name="HCN3" subType="1" waterExchangeable="false" chemAtomSet="_2">
-      <CHEM.AbstractChemAtom.chemBonds> _46</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_16" elementSymbol="H" name="HCN3" subType="1" waterExchangeable="false" chemAtomSet="_13">
+      <CHEM.AbstractChemAtom.chemBonds> _55</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
     <CHEM.ChemAtom _ID="_7" elementSymbol="H" name="HG12" subType="1" waterExchangeable="false" chemAtomSet="_6">
-      <CHEM.AbstractChemAtom.chemBonds> _39</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemBonds> _46</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
     <CHEM.ChemAtom _ID="_8" elementSymbol="H" name="HG13" subType="1" waterExchangeable="false" chemAtomSet="_6">
-      <CHEM.AbstractChemAtom.chemBonds> _40</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemBonds> _47</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_12" elementSymbol="H" name="HG21" subType="1" waterExchangeable="false" chemAtomSet="_9">
-      <CHEM.AbstractChemAtom.chemBonds> _44</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_10" elementSymbol="H" name="HG21" subType="1" waterExchangeable="false" chemAtomSet="_9">
+      <CHEM.AbstractChemAtom.chemBonds> _50</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_10" elementSymbol="H" name="HG22" subType="1" waterExchangeable="false" chemAtomSet="_9">
-      <CHEM.AbstractChemAtom.chemBonds> _43</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_12" elementSymbol="H" name="HG22" subType="1" waterExchangeable="false" chemAtomSet="_9">
+      <CHEM.AbstractChemAtom.chemBonds> _49</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
     <CHEM.ChemAtom _ID="_11" elementSymbol="H" name="HG23" subType="1" waterExchangeable="false" chemAtomSet="_9">
-      <CHEM.AbstractChemAtom.chemBonds> _42</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemBonds> _51</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_55" elementSymbol="N" name="N" subType="1" waterExchangeable="false">
-      <CHEM.ChemAtom.boundLinkEnds> _33</CHEM.ChemAtom.boundLinkEnds>
-      <CHEM.AbstractChemAtom.chemBonds> _47 _31 _51 _56</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _21 _22 _23 _24 _25</CHEM.AbstractChemAtom.chemCompVars>
-      <CHEM.AbstractChemAtom.chemTorsions> _32 _27 _26</CHEM.AbstractChemAtom.chemTorsions>
+    <CHEM.ChemAtom _ID="_63" elementSymbol="N" name="N" subType="1" waterExchangeable="false">
+      <CHEM.ChemAtom.boundLinkEnds> _40</CHEM.ChemAtom.boundLinkEnds>
+      <CHEM.AbstractChemAtom.chemBonds> _56 _57 _37 _61 _64 _60</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _24 _25 _26 _27 _28 _29 _30 _31 _32</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemTorsions> _34 _33 _39</CHEM.AbstractChemAtom.chemTorsions>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_57" elementSymbol="O" name="O" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _16</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _24</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_65" elementSymbol="O" name="O" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _19</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _30 _29 _24</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_58" elementSymbol="O" name="O'" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _17</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _22 _23 _25 _21</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_66" elementSymbol="O" name="O'" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _22</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _27 _25 _31 _28 _32 _26</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_59" elementSymbol="O" name="O''" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _15 _53</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _22 _23 _25 _21</CHEM.AbstractChemAtom.chemCompVars>
+    <CHEM.ChemAtom _ID="_67" elementSymbol="O" name="O''" subType="1" waterExchangeable="false">
+      <CHEM.AbstractChemAtom.chemBonds> _59 _23</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _27 _25 _31 _28 _32 _26</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.LinkAtom _ID="_60" name="next_1" subType="1">
-      <CHEM.LinkAtom.boundLinkEnd> _14</CHEM.LinkAtom.boundLinkEnd>
-      <CHEM.AbstractChemAtom.chemBonds> _18</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _20 _24</CHEM.AbstractChemAtom.chemCompVars>
-      <CHEM.AbstractChemAtom.chemTorsions> _26</CHEM.AbstractChemAtom.chemTorsions>
+    <CHEM.LinkAtom _ID="_68" name="next_1" subType="1">
+      <CHEM.LinkAtom.boundLinkEnd> _18</CHEM.LinkAtom.boundLinkEnd>
+      <CHEM.AbstractChemAtom.chemBonds> _21</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _30 _29 _24</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemTorsions> _33</CHEM.AbstractChemAtom.chemTorsions>
     </CHEM.LinkAtom>
-    <CHEM.LinkAtom _ID="_61" name="prev_1" subType="1">
-      <CHEM.LinkAtom.boundLinkEnd> _33</CHEM.LinkAtom.boundLinkEnd>
-      <CHEM.AbstractChemAtom.chemBonds> _56 _62</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _22 _25 _20</CHEM.AbstractChemAtom.chemCompVars>
-      <CHEM.AbstractChemAtom.chemTorsions> _32 _27</CHEM.AbstractChemAtom.chemTorsions>
+    <CHEM.LinkAtom _ID="_69" name="prev_1" subType="1">
+      <CHEM.LinkAtom.boundLinkEnd> _40</CHEM.LinkAtom.boundLinkEnd>
+      <CHEM.AbstractChemAtom.chemBonds> _64</CHEM.AbstractChemAtom.chemBonds>
+      <CHEM.AbstractChemAtom.chemCompVars> _26 _31 _24</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemTorsions> _34 _39</CHEM.AbstractChemAtom.chemTorsions>
     </CHEM.LinkAtom>
-    <CHEM.LinkAtom _ID="_63" name="prev_2" subType="1">
-      <CHEM.AbstractChemAtom.chemBonds> _62</CHEM.AbstractChemAtom.chemBonds>
-      <CHEM.AbstractChemAtom.chemCompVars> _22 _25 _20</CHEM.AbstractChemAtom.chemCompVars>
-      <CHEM.AbstractChemAtom.chemTorsions> _32</CHEM.AbstractChemAtom.chemTorsions>
-      <CHEM.LinkAtom.remoteLinkEnd> _33</CHEM.LinkAtom.remoteLinkEnd>
+    <CHEM.LinkAtom _ID="_70" name="prev_2" subType="1">
+      <CHEM.AbstractChemAtom.chemCompVars> _26 _31 _24</CHEM.AbstractChemAtom.chemCompVars>
+      <CHEM.AbstractChemAtom.chemTorsions> _39</CHEM.AbstractChemAtom.chemTorsions>
+      <CHEM.LinkAtom.remoteLinkEnd> _40</CHEM.LinkAtom.remoteLinkEnd>
     </CHEM.LinkAtom>
   </CHEM.ChemComp.chemAtoms>
   <CHEM.ChemComp.chemBonds>
-    <CHEM.ChemBond _ID="_30" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _38 _28</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_46" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _7 _45</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_56" bondType="singleplanar">
-      <CHEM.ChemBond.chemAtoms> _61 _55</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_57" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _63 _4</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_39" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _38 _7</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_54" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _52 _14</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_35" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _41 _34</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_29" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _34 _28</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_62" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _63 _61</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_36" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _38 _34</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_19" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _13 _28</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_42" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _41 _11</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_56" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _52 _63</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
     <CHEM.ChemBond _ID="_53" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _52 _59</CHEM.ChemBond.chemAtoms>
+      <CHEM.ChemBond.chemAtoms> _52 _15</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_51" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _55 _50</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_20" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _35 _17</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_43" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _41 _10</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_36" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _41 _35</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_31" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _55 _28</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_15" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _13 _59</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_16" bondType="double">
-      <CHEM.ChemBond.chemAtoms> _57 _13</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_46" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _45 _5</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_48" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _3 _45</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_37" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _54 _34</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_40" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _38 _8</CHEM.ChemBond.chemAtoms>
-    </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_49" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _45 _4</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_50" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _10 _48</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
     <CHEM.ChemBond _ID="_47" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _45 _55</CHEM.ChemBond.chemAtoms>
+      <CHEM.ChemBond.chemAtoms> _8 _45</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_18" bondType="singleplanar">
-      <CHEM.ChemBond.chemAtoms> _60 _13</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_55" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _52 _16</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_22" bondType="double">
+      <CHEM.ChemBond.chemAtoms> _66 _17</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_38" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _35 _45</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_42" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _41 _45</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_43" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _41 _48</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_64" bondType="singleplanar" stereochem="unknown">
+      <CHEM.ChemBond.chemAtoms> _63 _69</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_61" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _63 _5</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
     <CHEM.ChemBond _ID="_44" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _41 _12</CHEM.ChemBond.chemAtoms>
+      <CHEM.ChemBond.chemAtoms> _41 _62</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_17" bondType="double">
-      <CHEM.ChemBond.chemAtoms> _13 _58</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_59" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _58 _67</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_49" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _12 _48</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_60" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _63 _3</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_19" bondType="double">
+      <CHEM.ChemBond.chemAtoms> _65 _17</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_37" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _63 _35</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_21" bondType="singleplanar" stereochem="unknown">
+      <CHEM.ChemBond.chemAtoms> _68 _17</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_51" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _48 _11</CHEM.ChemBond.chemAtoms>
+    </CHEM.ChemBond>
+    <CHEM.ChemBond _ID="_23" bondType="single">
+      <CHEM.ChemBond.chemAtoms> _67 _17</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
   </CHEM.ChemComp.chemBonds>
   <CHEM.ChemComp.chemCompVars>
-    <CHEM.ChemCompVar _ID="_22" descriptor="deprot:H''" formalCharge="1" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="end">
-      <CHEM.ChemCompVar.chemAtoms> _3 _10 _59 _41 _34 _28 _12 _4 _8 _54 _38 _13 _58 _50 _11 _5 _61 _45 _7 _55 _63</CHEM.ChemCompVar.chemAtoms>
+    <CHEM.ChemCompVar _ID="_31" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="end">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>deprot:H''</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _16 _17 _35 _52 _69 _11 _48 _70 _8 _7 _62 _15 _45 _67 _14 _4 _12 _66</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
-    <CHEM.ChemCompVar _ID="_25" descriptor="prot:H''" formalCharge="1" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="end">
-      <CHEM.ChemCompVar.chemAtoms> _50 _10 _28 _52 _58 _5 _61 _59 _12 _54 _41 _11 _45 _34 _8 _3 _13 _38 _4 _7 _55 _63</CHEM.ChemCompVar.chemAtoms>
+    <CHEM.ChemCompVar _ID="_26" formalCharge="0" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="end">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>prot:H''</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _12 _62 _7 _70 _17 _66 _63 _10 _45 _15 _58 _52 _67 _41 _8 _16 _14 _48 _35 _69 _11 _4</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
-    <CHEM.ChemCompVar _ID="_20" descriptor="neutral" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="middle">
-      <CHEM.ChemCompVar.chemAtoms> _50 _10 _41 _34 _28 _12 _4 _5 _54 _3 _13 _11 _45 _8 _61 _7 _57 _60 _38 _55 _63</CHEM.ChemCompVar.chemAtoms>
+    <CHEM.ChemCompVar _ID="_24" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="middle">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>neutral</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _68 _17 _8 _35 _52 _69 _11 _48 _70 _12 _62 _7 _65 _15 _45 _16 _4 _14</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
-    <CHEM.ChemCompVar _ID="_23" descriptor="deprot:H''" formalCharge="2" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="none">
-      <CHEM.ChemCompVar.chemAtoms> _3 _10 _59 _41 _34 _28 _12 _4 _8 _54 _11 _13 _58 _5 _38 _45 _7 _55</CHEM.ChemCompVar.chemAtoms>
+    <CHEM.ChemCompVar _ID="_28" formalCharge="0" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="none">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>deprot:H3,H''</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _16 _12 _35 _52 _7 _3 _11 _8 _45 _62 _15 _48 _67 _4 _17 _14 _66</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
-    <CHEM.ChemCompVar _ID="_21" descriptor="prot:H''" formalCharge="2" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="none">
-      <CHEM.ChemCompVar.chemAtoms> _3 _10 _52 _41 _34 _28 _12 _4 _59 _8 _54 _11 _13 _58 _5 _38 _45 _7 _55</CHEM.ChemCompVar.chemAtoms>
+    <CHEM.ChemCompVar _ID="_27" formalCharge="0" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="none">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>prot:H'';deprot:H3</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _16 _58 _12 _35 _52 _7 _3 _11 _8 _45 _62 _15 _48 _67 _4 _17 _14 _66</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
-    <CHEM.ChemCompVar _ID="_24" descriptor="neutral" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="start">
-      <CHEM.ChemCompVar.chemAtoms> _45 _3 _41 _34 _28 _12 _4 _8 _54 _11 _13 _10 _5 _38 _7 _57 _60 _55</CHEM.ChemCompVar.chemAtoms>
+    <CHEM.ChemCompVar _ID="_25" formalCharge="0" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="none">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>prot:H3,H''</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _16 _3 _7 _17 _66 _63 _10 _45 _15 _58 _52 _67 _41 _8 _5 _14 _48 _35 _12 _11 _62 _4</CHEM.ChemCompVar.chemAtoms>
+    </CHEM.ChemCompVar>
+    <CHEM.ChemCompVar _ID="_32" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="none">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>prot:H3;deprot:H''</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _16 _12 _35 _52 _7 _3 _67 _11 _8 _45 _62 _15 _48 _5 _4 _17 _14 _66</CHEM.ChemCompVar.chemAtoms>
+    </CHEM.ChemCompVar>
+    <CHEM.ChemCompVar _ID="_29" formalCharge="0" isAromatic="false" isDefaultVar="false" isParamagnetic="false" linking="start">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>deprot:H3</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _68 _12 _35 _52 _7 _3 _11 _8 _62 _45 _65 _15 _48 _16 _4 _17 _14</CHEM.ChemCompVar.chemAtoms>
+    </CHEM.ChemCompVar>
+    <CHEM.ChemCompVar _ID="_30" formalCharge="0" isAromatic="false" isDefaultVar="true" isParamagnetic="false" linking="start">
+      <CHEM.ChemCompVar.descriptor>
+        <IMPL.Line>prot:H3</IMPL.Line>
+      </CHEM.ChemCompVar.descriptor>
+      <CHEM.ChemCompVar.nonStereoSmiles>
+        <IMPL.String>CN[C]1(C[CH]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.nonStereoSmiles>
+      <CHEM.ChemCompVar.stereoSmiles>
+        <IMPL.String>CN[C@]1(C[C@@H]1C)C(O)=O</IMPL.String>
+      </CHEM.ChemCompVar.stereoSmiles>
+      <CHEM.ChemCompVar.chemAtoms> _41 _63 _10 _68 _12 _35 _52 _7 _3 _11 _8 _62 _45 _65 _15 _48 _5 _16 _4 _17 _14</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
   </CHEM.ChemComp.chemCompVars>
   <CHEM.ChemComp.chemTorsions>
-    <CHEM.ChemTorsion _ID="_26" name="PSI">
-      <CHEM.ChemTorsion.chemAtoms> _55 _28 _13 _60</CHEM.ChemTorsion.chemAtoms>
+    <CHEM.ChemTorsion _ID="_33" name="PSI">
+      <CHEM.ChemTorsion.chemAtoms> _63 _35 _17 _68</CHEM.ChemTorsion.chemAtoms>
     </CHEM.ChemTorsion>
-    <CHEM.ChemTorsion _ID="_32" name="OMEGA">
-      <CHEM.ChemTorsion.chemAtoms> _63 _61 _55 _28</CHEM.ChemTorsion.chemAtoms>
+    <CHEM.ChemTorsion _ID="_39" name="OMEGA">
+      <CHEM.ChemTorsion.chemAtoms> _70 _69 _63 _35</CHEM.ChemTorsion.chemAtoms>
     </CHEM.ChemTorsion>
-    <CHEM.ChemTorsion _ID="_27" name="PHI">
-      <CHEM.ChemTorsion.chemAtoms> _61 _55 _28 _13</CHEM.ChemTorsion.chemAtoms>
+    <CHEM.ChemTorsion _ID="_34" name="PHI">
+      <CHEM.ChemTorsion.chemAtoms> _69 _63 _35 _17</CHEM.ChemTorsion.chemAtoms>
     </CHEM.ChemTorsion>
   </CHEM.ChemComp.chemTorsions>
   <CHEM.ChemComp.linkEnds>
-    <CHEM.LinkEnd _ID="_14" linkCode="next" boundChemAtom="_13" remoteChemAtom="_28">
-      <CHEM.LinkEnd.boundLinkAtom> _60</CHEM.LinkEnd.boundLinkAtom>
+    <CHEM.LinkEnd _ID="_18" linkCode="next" boundChemAtom="_17" remoteChemAtom="_35">
+      <CHEM.LinkEnd.boundLinkAtom> _68</CHEM.LinkEnd.boundLinkAtom>
     </CHEM.LinkEnd>
-    <CHEM.LinkEnd _ID="_33" linkCode="prev" boundChemAtom="_55" remoteChemAtom="_28">
-      <CHEM.LinkEnd.boundLinkAtom> _61</CHEM.LinkEnd.boundLinkAtom>
-      <CHEM.LinkEnd.remoteLinkAtom> _63</CHEM.LinkEnd.remoteLinkAtom>
+    <CHEM.LinkEnd _ID="_40" linkCode="prev" boundChemAtom="_63" remoteChemAtom="_35">
+      <CHEM.LinkEnd.boundLinkAtom> _69</CHEM.LinkEnd.boundLinkAtom>
+      <CHEM.LinkEnd.remoteLinkAtom> _70</CHEM.LinkEnd.remoteLinkAtom>
     </CHEM.LinkEnd>
   </CHEM.ChemComp.linkEnds>
   <CHEM.ChemComp.namingSystems>
-    <CHEM.NamingSystem _ID="_64" name="AQUA" atomReference="_65">
-      <CHEM.NamingSystem.atomSetVariantSystems> _66 _67 _68</CHEM.NamingSystem.atomSetVariantSystems>
+    <CHEM.NamingSystem _ID="_71" name="AQUA" atomReference="_72">
+      <CHEM.NamingSystem.atomSetVariantSystems> _73 _74</CHEM.NamingSystem.atomSetVariantSystems>
+      <CHEM.NamingSystem.atomSysNames>
+        <CHEM.AtomSysName _ID="_75" atomName="HG1*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>QG1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_76" atomName="HG2*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>MG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_77" atomName="HN*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>MN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+      </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_68" name="BMRB" atomReference="_65" atomSetReference="_64">
+    <CHEM.NamingSystem _ID="_73" name="BMRB" atomReference="_72" atomSetReference="_71">
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_69" name="CIF">
+    <CHEM.NamingSystem _ID="_78" name="CIF">
       <CHEM.NamingSystem.chemCompSysNames>
-        <CHEM.ChemCompSysName _ID="_70" sysName="CPC">
+        <CHEM.ChemCompSysName _ID="_79" sysName="CPC">
         </CHEM.ChemCompSysName>
       </CHEM.NamingSystem.chemCompSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_71" name="CING">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_72" name="CYANA2.1" atomReference="_65">
-      <CHEM.NamingSystem.atomSetVariantSystems> _73</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _73</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_73" name="DIANA" atomReference="_72" atomSetReference="_72">
-      <CHEM.NamingSystem.atomSetVariantSystems> _74</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _74</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_75" name="DISGEO" atomReference="_65" atomSetReference="_74">
-      <CHEM.NamingSystem.atomSetVariantSystems> _76</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _76</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_76" name="DISMAN" atomReference="_75" atomSetReference="_75">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_77" name="GROMOS">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_65" name="IUPAC">
-      <CHEM.NamingSystem.atomSetVariantSystems> _78</CHEM.NamingSystem.atomSetVariantSystems>
-      <CHEM.NamingSystem.atomVariantSystems> _72 _79 _80 _81 _64 _66 _68 _75</CHEM.NamingSystem.atomVariantSystems>
+    <CHEM.NamingSystem _ID="_72" name="IUPAC" atomReference="_74">
+      <CHEM.NamingSystem.atomVariantSystems> _73 _71</CHEM.NamingSystem.atomVariantSystems>
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_82" atomName="C" atomSubType="1" sysName="C">
+        <CHEM.AtomSysName _ID="_80" atomName="H*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>H*</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_83" atomName="CA" atomSubType="1" sysName="CA">
+        <CHEM.AtomSysName _ID="_81" atomName="HG1*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG1*</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_84" atomName="CB" atomSubType="1" sysName="CB">
+        <CHEM.AtomSysName _ID="_82" atomName="HG2*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG2*</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_85" atomName="CG1" atomSubType="1" sysName="CG1">
+        <CHEM.AtomSysName _ID="_83" atomName="HN*" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HN*</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_86" atomName="CG2" atomSubType="1" sysName="CG2">
+        <CHEM.AtomSysName _ID="_84" atomName="O'" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O'</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_87" atomName="CN" atomSubType="1" sysName="CN">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_88" atomName="H" atomSubType="1" sysName="H">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_89" atomName="H''" atomSubType="1" sysName="H''">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_90" atomName="HB" atomSubType="1" sysName="HB">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_91" atomName="HCN*" atomSubType="1" sysName="HCN*">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_92" atomName="HCN1" atomSubType="1" sysName="HCN1">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_93" atomName="HCN2" atomSubType="1" sysName="HCN2">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_94" atomName="HCN3" atomSubType="1" sysName="HCN3">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_95" atomName="HG1*" atomSubType="1" sysName="HG1*">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_96" atomName="HG12" atomSubType="1" sysName="HG12">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_97" atomName="HG13" atomSubType="1" sysName="HG13">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_98" atomName="HG2*" atomSubType="1" sysName="HG2*">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_99" atomName="HG21" atomSubType="1" sysName="HG21">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_100" atomName="HG22" atomSubType="1" sysName="HG22">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_101" atomName="HG23" atomSubType="1" sysName="HG23">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_102" atomName="N" atomSubType="1" sysName="N">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_103" atomName="O" atomSubType="1" sysName="O">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_104" atomName="O''" atomSubType="1" sysName="O''">
+        <CHEM.AtomSysName _ID="_85" atomName="O''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O''</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_74" name="MOLMOL" atomReference="_73" atomSetReference="_73">
-      <CHEM.NamingSystem.atomSetVariantSystems> _75</CHEM.NamingSystem.atomSetVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_80" name="MSD" atomReference="_65">
+    <CHEM.NamingSystem _ID="_86" name="MSD">
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_105" atomName="C" atomSubType="1" sysName="C">
+        <CHEM.AtomSysName _ID="_87" atomName="C" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>C</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_106" atomName="CA" atomSubType="1" sysName="CA">
+        <CHEM.AtomSysName _ID="_88" atomName="CA" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CA</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_107" atomName="CB" atomSubType="1" sysName="CB">
+        <CHEM.AtomSysName _ID="_89" atomName="CB" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CB</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_108" atomName="CG1" atomSubType="1" sysName="CG1">
+        <CHEM.AtomSysName _ID="_90" atomName="CG1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CG1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_109" atomName="CG2" atomSubType="1" sysName="CG2">
+        <CHEM.AtomSysName _ID="_91" atomName="CG2" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_110" atomName="CN" atomSubType="1" sysName="CN">
+        <CHEM.AtomSysName _ID="_92" atomName="CN" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_111" atomName="H" atomSubType="1" sysName="HN">
+        <CHEM.AtomSysName _ID="_93" atomName="H" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_112" atomName="H''" atomSubType="1" sysName="HXT">
+        <CHEM.AtomSysName _ID="_94" atomName="H''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HXT</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_113" atomName="HB" atomSubType="1" sysName="HB">
+        <CHEM.AtomSysName _ID="_95" atomName="HB" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HB</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_114" atomName="HCN1" atomSubType="1" sysName="HCN_1">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_115" atomName="HCN2" atomSubType="1" sysName="HCN_2">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_116" atomName="HCN3" atomSubType="1" sysName="HCN_3">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_117" atomName="HCN*" atomSubType="1" sysName="HCN_*">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_118" atomName="HG12" atomSubType="1" sysName="HG1_2">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_119" atomName="HG13" atomSubType="1" sysName="HG1_1">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_120" atomName="HG1*" atomSubType="1" sysName="HG1_*">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_121" atomName="HG21" atomSubType="1" sysName="HG2_1">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_122" atomName="HG22" atomSubType="1" sysName="HG2_2">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_123" atomName="HG23" atomSubType="1" sysName="HG2_3">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_124" atomName="HG2*" atomSubType="1" sysName="HG2_*">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_125" atomName="N" atomSubType="1" sysName="N">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_126" atomName="O" atomSubType="1" sysName="O">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_127" atomName="O''" atomSubType="1" sysName="OXT">
-        </CHEM.AtomSysName>
-      </CHEM.NamingSystem.atomSysNames>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_78" name="MSI" atomReference="_79" atomSetReference="_65">
-      <CHEM.NamingSystem.atomVariantSystems> _67</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_128" name="PDB">
-      <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_129" atomName="C" atomSubType="1" sysName="C">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_130" atomName="CA" atomSubType="1" sysName="CA">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_131" atomName="CB" atomSubType="1" sysName="CB">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_132" atomName="CG1" atomSubType="1" sysName="CG1">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_133" atomName="CG2" atomSubType="1" sysName="CG2">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_134" atomName="CN" atomSubType="1" sysName="CN">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_135" atomName="H" atomSubType="1" sysName="HN">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_136" atomName="H''" atomSubType="1" sysName="HXT">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_137" atomName="HB" atomSubType="1" sysName="HB">
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_138" atomName="HCN1" atomSubType="1" sysName="1HCN">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_96" atomName="HCN1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HCN_1</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_139" atomName="HCN2" atomSubType="1" sysName="2HCN">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_97" atomName="HCN2" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HCN_2</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_140" atomName="HCN3" atomSubType="1" sysName="3HCN">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_98" atomName="HCN3" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HCN_3</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_141" atomName="HG12" atomSubType="1" sysName="2HG1">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_99" atomName="HG12" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HG1_2</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_142" atomName="HG13" atomSubType="1" sysName="1HG1">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_100" atomName="HG13" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HG1_1</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_143" atomName="HG21" atomSubType="1" sysName="1HG2">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_101" atomName="HG21" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HG2_1</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_144" atomName="HG22" atomSubType="1" sysName="2HG2">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_102" atomName="HG22" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HG2_2</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_145" atomName="HG23" atomSubType="1" sysName="3HG2">
-          <CHEM.AtomSysName.altSysNames>
+        <CHEM.AtomSysName _ID="_103" atomName="HG23" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
             <IMPL.Line>HG2_3</IMPL.Line>
-          </CHEM.AtomSysName.altSysNames>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_146" atomName="N" atomSubType="1" sysName="N">
+        <CHEM.AtomSysName _ID="_104" atomName="N" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>N</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_147" atomName="O" atomSubType="1" sysName="O">
+        <CHEM.AtomSysName _ID="_105" atomName="O" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_148" atomName="O''" atomSubType="1" sysName="OXT">
+        <CHEM.AtomSysName _ID="_106" atomName="O''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>OXT</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_66" name="PDB_REMED" atomReference="_65" atomSetReference="_64">
+    <CHEM.NamingSystem _ID="_107" name="PDB">
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_149" atomName="H''" atomSubType="1" sysName="HXT">
+        <CHEM.AtomSysName _ID="_108" atomName="C" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>C</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_150" atomName="HCN*" atomSubType="1" sysName="HCN*">
+        <CHEM.AtomSysName _ID="_109" atomName="CA" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CA</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_151" atomName="HG1*" atomSubType="1" sysName="HG1*">
+        <CHEM.AtomSysName _ID="_110" atomName="CB" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CB</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_152" atomName="HG2*" atomSubType="1" sysName="HG2*">
+        <CHEM.AtomSysName _ID="_111" atomName="CG1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CG1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_153" atomName="O'" atomSubType="1" sysName="O">
+        <CHEM.AtomSysName _ID="_112" atomName="CG2" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_154" atomName="O''" atomSubType="1" sysName="OXT">
+        <CHEM.AtomSysName _ID="_113" atomName="CN" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_114" atomName="H" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_115" atomName="H''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HXT</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_116" atomName="H1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_117" atomName="H3" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_118" atomName="HB" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HB</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_119" atomName="HCN1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>1HCN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_120" atomName="HCN2" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>2HCN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_121" atomName="HCN3" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>3HCN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_122" atomName="HG12" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>2HG1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_123" atomName="HG13" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>1HG1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_124" atomName="HG21" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>1HG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_125" atomName="HG22" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>2HG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_126" atomName="HG23" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>3HG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_127" atomName="N" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>N</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_128" atomName="O" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_129" atomName="O'" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_130" atomName="O''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>OXT</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_79" name="SYBYL" atomReference="_65">
-      <CHEM.NamingSystem.atomVariantSystems> _78</CHEM.NamingSystem.atomVariantSystems>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_67" name="UCSF" atomReference="_78" atomSetReference="_64">
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_81" name="XPLOR" atomReference="_65">
+    <CHEM.NamingSystem _ID="_74" name="PDB_REMED" atomSetReference="_71">
+      <CHEM.NamingSystem.atomVariantSystems> _72</CHEM.NamingSystem.atomVariantSystems>
+      <CHEM.NamingSystem.atomSysNames>
+        <CHEM.AtomSysName _ID="_131" atomName="C" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>C</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_132" atomName="CA" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CA</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_133" atomName="CB" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CB</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_134" atomName="CG1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CG1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_135" atomName="CG2" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CG2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_136" atomName="CN" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>CN</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_137" atomName="H" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>H</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_138" atomName="H''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HXT</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_139" atomName="H1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>H</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_140" atomName="H3" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>H</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_141" atomName="HB" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HB</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_142" atomName="HCN1" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HCN1</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_143" atomName="HCN2" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HCN2</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_144" atomName="HCN3" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HCN3</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_145" atomName="HG12" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG12</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_146" atomName="HG13" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG13</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_147" atomName="HG21" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG21</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_148" atomName="HG22" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG22</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_149" atomName="HG23" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>HG23</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_150" atomName="N" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>N</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_151" atomName="O" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_152" atomName="O'" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>O</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+        <CHEM.AtomSysName _ID="_153" atomName="O''" atomSubType="1">
+          <CHEM.AtomSysName.sysName>
+            <IMPL.Line>OXT</IMPL.Line>
+          </CHEM.AtomSysName.sysName>
+        </CHEM.AtomSysName>
+      </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
   </CHEM.ChemComp.namingSystems>
 </CHEM.NonStdChemComp>
