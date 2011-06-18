@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<_StorageUnit release="2.0.a3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Thu Mar 12 14:03:40 2009">
+<_StorageUnit release="2.0.b3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Sat Jun 18 13:10:24 2011">
 
-<CHEM.NonStdChemComp _ID="_1" ccpCode="Cfo" code3Letter="CFO" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-15-22_00008" isModifiable="true" molType="other">
+<CHEM.NonStdChemComp _ID="_1" ccpCode="Cfo" code3Letter="CFO" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-15-22_00008" molType="other">
   <CHEM.ChemComp.name>
     <IMPL.Text>CHLORO DIIRON-OXO MOIETY</IMPL.Text>
   </CHEM.ChemComp.name>
@@ -27,31 +27,31 @@
     </IMPL.AppDataBoolean>
   </IMPL.DataObject.applicationData>
   <CHEM.ChemComp.chemAtoms>
-    <CHEM.ChemAtom _ID="_2" elementSymbol="Cl" name="CL" subType="1" waterExchangeable="false">
+    <CHEM.ChemAtom _ID="_2" elementSymbol="Cl" name="CL">
       <CHEM.AbstractChemAtom.chemBonds> _3</CHEM.AbstractChemAtom.chemBonds>
       <CHEM.AbstractChemAtom.chemCompVars> _4</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_5" elementSymbol="Fe" name="FE1" subType="1" waterExchangeable="false">
+    <CHEM.ChemAtom _ID="_5" elementSymbol="Fe" name="FE1">
       <CHEM.AbstractChemAtom.chemBonds> _6</CHEM.AbstractChemAtom.chemBonds>
       <CHEM.AbstractChemAtom.chemCompVars> _4</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_7" elementSymbol="Fe" name="FE2" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _8 _3</CHEM.AbstractChemAtom.chemBonds>
+    <CHEM.ChemAtom _ID="_7" elementSymbol="Fe" name="FE2">
+      <CHEM.AbstractChemAtom.chemBonds> _3 _8</CHEM.AbstractChemAtom.chemBonds>
       <CHEM.AbstractChemAtom.chemCompVars> _4</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
-    <CHEM.ChemAtom _ID="_9" elementSymbol="O" name="O" subType="1" waterExchangeable="false">
-      <CHEM.AbstractChemAtom.chemBonds> _6 _8</CHEM.AbstractChemAtom.chemBonds>
+    <CHEM.ChemAtom _ID="_9" elementSymbol="O" name="O">
+      <CHEM.AbstractChemAtom.chemBonds> _8 _6</CHEM.AbstractChemAtom.chemBonds>
       <CHEM.AbstractChemAtom.chemCompVars> _4</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
   </CHEM.ChemComp.chemAtoms>
   <CHEM.ChemComp.chemBonds>
-    <CHEM.ChemBond _ID="_6" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _9 _5</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_6">
+      <CHEM.ChemBond.chemAtoms> _5 _9</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_8" bondType="single">
-      <CHEM.ChemBond.chemAtoms> _9 _7</CHEM.ChemBond.chemAtoms>
+    <CHEM.ChemBond _ID="_8">
+      <CHEM.ChemBond.chemAtoms> _7 _9</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
-    <CHEM.ChemBond _ID="_3" bondType="single">
+    <CHEM.ChemBond _ID="_3">
       <CHEM.ChemBond.chemAtoms> _2 _7</CHEM.ChemBond.chemAtoms>
     </CHEM.ChemBond>
   </CHEM.ChemComp.chemBonds>
@@ -66,103 +66,79 @@
       <CHEM.ChemCompVar.stereoSmiles>
         <IMPL.String>Cl[Fe]O[Fe]</IMPL.String>
       </CHEM.ChemCompVar.stereoSmiles>
-      <CHEM.ChemCompVar.chemAtoms> _7 _5 _9 _2</CHEM.ChemCompVar.chemAtoms>
+      <CHEM.ChemCompVar.chemAtoms> _5 _7 _9 _2</CHEM.ChemCompVar.chemAtoms>
     </CHEM.ChemCompVar>
   </CHEM.ChemComp.chemCompVars>
   <CHEM.ChemComp.namingSystems>
-    <CHEM.NamingSystem _ID="_10" name="AQUA" atomReference="_11">
-      <CHEM.NamingSystem.atomSetVariantSystems> _12 _13</CHEM.NamingSystem.atomSetVariantSystems>
+    <CHEM.NamingSystem _ID="_10" name="AQUA">
+      <CHEM.NamingSystem.atomSetVariantSystems> _11 _12</CHEM.NamingSystem.atomSetVariantSystems>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_12" name="BMRB" atomReference="_11" atomSetReference="_10">
+    <CHEM.NamingSystem _ID="_12" name="BMRB">
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_14" name="CIF">
+    <CHEM.NamingSystem _ID="_13" name="CIF">
       <CHEM.NamingSystem.chemCompSysNames>
-        <CHEM.ChemCompSysName _ID="_15" sysName="CFO">
+        <CHEM.ChemCompSysName _ID="_14" sysName="CFO">
         </CHEM.ChemCompSysName>
       </CHEM.NamingSystem.chemCompSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_11" name="IUPAC" atomReference="_13">
-      <CHEM.NamingSystem.atomVariantSystems> _12 _10</CHEM.NamingSystem.atomVariantSystems>
+    <CHEM.NamingSystem _ID="_15" name="IUPAC">
+      <CHEM.NamingSystem.atomVariantSystems> _10 _12</CHEM.NamingSystem.atomVariantSystems>
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_16" atomName="O'" atomSubType="1">
+        <CHEM.AtomSysName _ID="_16" atomName="O'">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>O'</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_17" atomName="O''" atomSubType="1">
+        <CHEM.AtomSysName _ID="_17" atomName="O''">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>O''</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_18" name="MSD">
+    <CHEM.NamingSystem _ID="_18" name="PDB">
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_19" atomName="CL" atomSubType="1">
+        <CHEM.AtomSysName _ID="_19" atomName="CL">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>CL</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_20" atomName="FE1" atomSubType="1">
+        <CHEM.AtomSysName _ID="_20" atomName="FE1">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>FE1</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_21" atomName="FE2" atomSubType="1">
+        <CHEM.AtomSysName _ID="_21" atomName="FE2">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>FE2</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_22" atomName="O" atomSubType="1">
+        <CHEM.AtomSysName _ID="_22" atomName="O">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>O</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_23" name="PDB">
+    <CHEM.NamingSystem _ID="_11" name="PDB_REMED">
+      <CHEM.NamingSystem.atomVariantSystems> _15</CHEM.NamingSystem.atomVariantSystems>
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_24" atomName="CL" atomSubType="1">
+        <CHEM.AtomSysName _ID="_23" atomName="CL">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>CL</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_25" atomName="FE1" atomSubType="1">
+        <CHEM.AtomSysName _ID="_24" atomName="FE1">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>FE1</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_26" atomName="FE2" atomSubType="1">
+        <CHEM.AtomSysName _ID="_25" atomName="FE2">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>FE2</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_27" atomName="O" atomSubType="1">
-          <CHEM.AtomSysName.sysName>
-            <IMPL.Line>O</IMPL.Line>
-          </CHEM.AtomSysName.sysName>
-        </CHEM.AtomSysName>
-      </CHEM.NamingSystem.atomSysNames>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_13" name="PDB_REMED" atomSetReference="_10">
-      <CHEM.NamingSystem.atomVariantSystems> _11</CHEM.NamingSystem.atomVariantSystems>
-      <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_28" atomName="CL" atomSubType="1">
-          <CHEM.AtomSysName.sysName>
-            <IMPL.Line>CL</IMPL.Line>
-          </CHEM.AtomSysName.sysName>
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_29" atomName="FE1" atomSubType="1">
-          <CHEM.AtomSysName.sysName>
-            <IMPL.Line>FE1</IMPL.Line>
-          </CHEM.AtomSysName.sysName>
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_30" atomName="FE2" atomSubType="1">
-          <CHEM.AtomSysName.sysName>
-            <IMPL.Line>FE2</IMPL.Line>
-          </CHEM.AtomSysName.sysName>
-        </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_31" atomName="O" atomSubType="1">
+        <CHEM.AtomSysName _ID="_26" atomName="O">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>O</IMPL.Line>
           </CHEM.AtomSysName.sysName>
