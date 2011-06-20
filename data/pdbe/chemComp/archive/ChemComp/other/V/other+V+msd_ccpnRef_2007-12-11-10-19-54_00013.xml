@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<_StorageUnit release="2.0.a3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Thu Mar 12 15:13:18 2009">
+<_StorageUnit release="2.0.b3" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:51_00046" time="Sun Jun 19 21:15:59 2011">
 
-<CHEM.NonStdChemComp _ID="_1" ccpCode="V" code3Letter="V" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-19-54_00013" isModifiable="true" molType="other">
+<CHEM.NonStdChemComp _ID="_1" ccpCode="V" code3Letter="V" createdBy="ccpnRef" guid="msd_ccpnRef_2007-12-11-10-19-54_00013" molType="other">
   <CHEM.ChemComp.name>
     <IMPL.Text>VANADIUM ION</IMPL.Text>
   </CHEM.ChemComp.name>
@@ -27,7 +27,7 @@
     </IMPL.AppDataBoolean>
   </IMPL.DataObject.applicationData>
   <CHEM.ChemComp.chemAtoms>
-    <CHEM.ChemAtom _ID="_2" elementSymbol="V" name="V" subType="1" waterExchangeable="false">
+    <CHEM.ChemAtom _ID="_2" elementSymbol="V" name="V">
       <CHEM.AbstractChemAtom.chemCompVars> _3</CHEM.AbstractChemAtom.chemCompVars>
     </CHEM.ChemAtom>
   </CHEM.ChemComp.chemAtoms>
@@ -46,54 +46,45 @@
     </CHEM.ChemCompVar>
   </CHEM.ChemComp.chemCompVars>
   <CHEM.ChemComp.namingSystems>
-    <CHEM.NamingSystem _ID="_4" name="AQUA" atomReference="_5">
-      <CHEM.NamingSystem.atomSetVariantSystems> _6 _7</CHEM.NamingSystem.atomSetVariantSystems>
+    <CHEM.NamingSystem _ID="_4" name="AQUA">
+      <CHEM.NamingSystem.atomSetVariantSystems> _5 _6</CHEM.NamingSystem.atomSetVariantSystems>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_6" name="BMRB" atomReference="_5" atomSetReference="_4">
+    <CHEM.NamingSystem _ID="_6" name="BMRB">
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_8" name="CIF">
+    <CHEM.NamingSystem _ID="_7" name="CIF">
       <CHEM.NamingSystem.chemCompSysNames>
-        <CHEM.ChemCompSysName _ID="_9" sysName="V">
+        <CHEM.ChemCompSysName _ID="_8" sysName="V">
         </CHEM.ChemCompSysName>
       </CHEM.NamingSystem.chemCompSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_5" name="IUPAC" atomReference="_7">
-      <CHEM.NamingSystem.atomVariantSystems> _6 _4</CHEM.NamingSystem.atomVariantSystems>
+    <CHEM.NamingSystem _ID="_9" name="IUPAC">
+      <CHEM.NamingSystem.atomVariantSystems> _4 _6</CHEM.NamingSystem.atomVariantSystems>
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_10" atomName="O'" atomSubType="1">
+        <CHEM.AtomSysName _ID="_10" atomName="O'">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>O'</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
-        <CHEM.AtomSysName _ID="_11" atomName="O''" atomSubType="1">
+        <CHEM.AtomSysName _ID="_11" atomName="O''">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>O''</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_12" name="MSD">
+    <CHEM.NamingSystem _ID="_12" name="PDB">
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_13" atomName="V" atomSubType="1">
+        <CHEM.AtomSysName _ID="_13" atomName="V">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>V</IMPL.Line>
           </CHEM.AtomSysName.sysName>
         </CHEM.AtomSysName>
       </CHEM.NamingSystem.atomSysNames>
     </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_14" name="PDB">
+    <CHEM.NamingSystem _ID="_5" name="PDB_REMED">
+      <CHEM.NamingSystem.atomVariantSystems> _9</CHEM.NamingSystem.atomVariantSystems>
       <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_15" atomName="V" atomSubType="1">
-          <CHEM.AtomSysName.sysName>
-            <IMPL.Line>V</IMPL.Line>
-          </CHEM.AtomSysName.sysName>
-        </CHEM.AtomSysName>
-      </CHEM.NamingSystem.atomSysNames>
-    </CHEM.NamingSystem>
-    <CHEM.NamingSystem _ID="_7" name="PDB_REMED" atomSetReference="_4">
-      <CHEM.NamingSystem.atomVariantSystems> _5</CHEM.NamingSystem.atomVariantSystems>
-      <CHEM.NamingSystem.atomSysNames>
-        <CHEM.AtomSysName _ID="_16" atomName="V" atomSubType="1">
+        <CHEM.AtomSysName _ID="_14" atomName="V">
           <CHEM.AtomSysName.sysName>
             <IMPL.Line>V</IMPL.Line>
           </CHEM.AtomSysName.sysName>
