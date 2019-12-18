@@ -39,7 +39,7 @@ DATASEARCH = r'{}(\w.*)_'.format(DATAPREFIX)
 
 if __name__ == '__main__':
 
-    depth = len(ROOT.split(os.path.sep))-1
+    depth = len(ROOT.split(os.path.sep))
     pathDict = {}
 
     # iterate through the data folder
